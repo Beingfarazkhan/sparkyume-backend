@@ -20,10 +20,7 @@ mongoose
     console.log("Error Connecting to Mongodb | ", err);
   });
 
-const allowedOrigins = [
-  "http://localhost:3000",
-  "https://sparkyume-frontend.vercel.app",
-];
+const allowedOrigins = ["http://localhost:3000"];
 
 app.use(
   cors({
